@@ -10,10 +10,10 @@ O objetivo principal deste projeto é demonstrar a aplicação prática dos padr
 
 1.  **Creator (Criador)**
     * **Onde:** A classe `CozinhaService` é a "Criadora".
-    * **Porquê:** Ela é responsável por criar e gerir o ciclo de vida dos objetos `Pedido`. [cite_start]A `CozinhaService` "contém" ou "agrega" os pedidos.
+    * **Porquê:** Ela é responsável por criar e gerir o ciclo de vida dos objetos `Pedido`. A `CozinhaService` "contém" ou "agrega" os pedidos.
 2.  **Controller (Controlador)**
     * **Onde:** A classe `GerenteController` atua como o "Controlador".
-    * [cite_start]**Porquê:** Ela serve como intermediária entre a `RestauranteView` (interface) e a `CozinhaService` (lógica).
+    * **Porquê:** Ela serve como intermediária entre a `RestauranteView` (interface) e a `CozinhaService` (lógica).
 
 ---
 
